@@ -8,7 +8,7 @@ zoompickerはオンライン講義を受講する大学生のためのアプリ�
 
 #### Windows
 
-1. [こちら](https://github.com/tuat-yate/zoompicker/releases/tag/stable)からzipファイルをダウンロードし、解凍します。
+1. [こちら](https://github.com/tuat-yate/zoompicker/releases/tag/stable])からzipファイルをダウンロードし、解凍します。
 
 2. クラスの登録を行います。デフォルトではクラス名「デフォルト」の講義のみが登録されています。解凍したフォルダの中にある`subname_and_link.csv`をExcel等で編集することで講義の登録ができます。講義名を一列目に、zoom等のリンクを二列目に、Classroom等のリンクを三列目に登録し保存します。
 
@@ -33,11 +33,20 @@ zoompickerはオンライン講義を受講する大学生のためのアプリ�
    行は詰めて入力してください。正しく反映されない場合があります。
 
    - 良い例
-   ![good](good.png)
+
+     ![good](good.png)
+
    - 悪い例
-   ![bad](bad.png)
+
+     ![bad](bad.png)
 
 3. 解凍したフォルダの中にあるzoompicker.exeをダブルクリックで起動します。メニューから講義を選び、「zoom起動」、「Classroom」のボタンを押すことで`subname_and_link.csv`に保存したリンクが呼び出されます。
+
+   ＜注意＞
+
+   初回のみWindowsのセキュリティ機能が表示される場合があります。その場合は「詳細情報」をクリックし、「実行」をクリックすることで正しく動作します。
+
+   ![datail](detail.png)
 
 4. 必要に応じてショートカット等を作成しご利用ください。
 
