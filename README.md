@@ -1,5 +1,7 @@
 ## zoompicker
 
+![zoompicker](zoompicker.png)
+
 zoompickerはオンライン講義を受講する大学生のためのアプリです。
 
 講義のzoomやmeetのリンクとGoogle Classroom等学習支援のページをワンクリックで表示できます。
